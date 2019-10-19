@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Pagina 1</a>
+            <a href="#"> Pagina 2</a>
+            <a href="#"> Pagina 3</a>
+        </nav>
+    </header>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, voluptatibus consequatur aut reiciendis perferendis iusto ea enim dolores suscipit eaque unde, ad ipsa nisi odio odit explicabo molestias alias debitis?</p>
+    </div>
+    <footer>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolorem iure, ut sunt veritatis autem itaque minima dolores illo quaerat officia quis inventore totam quidem eveniet doloremque nisi iusto nesciunt.</P>
+    </footer>
+</body>
+<style>
+  nav a{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+  div{
+      text-align: justify;
+  }
+  footer{
+      text-align: justify;
+  }
+
+</style>
+</html>
